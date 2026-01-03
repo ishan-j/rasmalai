@@ -1,4 +1,4 @@
-// Static user database for CDAC PG-DITISS
+
 export const users = [
     {
         id: 1,
@@ -37,9 +37,9 @@ export const users = [
     },
     {
         id: 5,
-        username: "pradhnya",
+        username: "pradnya",
         password: "ishan@1001",
-        fullName: "Pradhnya",
+        fullName: "Pradnya",
         role: "Hacker",
         department: "Cybersecurity"
     }
