@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import SetupScreen from './componenets/SetupScreen';
 import QuizArea from './componenets/QuizArea';
 import Sidebar from './componenets/SideBar';
-import Header from './componenets/Header';
+import Header from './componenets/Header'
 import ResultScreen from './componenets/ResultScreen';
 import Login from './componenets/Login';
 import { fcnQuestions } from './data/fcn_quiz';

@@ -30,7 +30,7 @@ function Login({ onLogin }) {
     return (
         <div className="login-container">
             <div className="login-card">
-                <h1>INCOPA</h1>
+                <h1>COPAIN</h1>
                 <h3>Don't hack here</h3>
                 
                 {error && (

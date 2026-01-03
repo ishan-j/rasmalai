@@ -8,38 +8,37 @@ function Header({ user, userAnswers, quizTitle }) {
 
   return (
     <header className="header">
-      <div className="header-left">
-        <div className="user-avatar">
-          {user.fullName.charAt(0)}
-        </div>
-        <div>
-          <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
-            {user.fullName}
+      <div className="header-content">
+        <div className="header-left">
+          <div className="user-avatar">
+            {user.fullName.charAt(0)}
           </div>
-          <div style={{ fontSize: '0.8rem', color: 'var(--primary)', fontWeight: '600' }}>
-            {quizTitle} Practice
+          <div className="user-info-text">
+            <div className="truncate">{user.fullName}</div>
+            <div className="truncate" style={{ color: 'var(--primary)' }}>
+              {quizTitle} Practice
+            </div>
           </div>
         </div>
       </div>
+      
       <div id="live-stats">
-        <div style={{ display: 'flex', gap: '20px' }}>
-          <div>
-            <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Progress</div>
-            <div style={{ fontSize: '1.1rem', fontWeight: 'bold' }}>
-              {attempted}/{total} ({Math.round((attempted/total)*100)}%)
+        <div className="stats-grid">
+          <div className="stat-item">
+            <div className="stat-label">Progress</div>
+            <div className="stat-value">
+              {attempted}/{total}
             </div>
           </div>
-          <div>
-            <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Score</div>
-            <div style={{ fontSize: '1.1rem', fontWeight: 'bold', color: 'var(--success)' }}>
+          <div className="stat-item">
+            <div className="stat-label">Score</div>
+            <div className="stat-value" style={{ color: 'var(--success)' }}>
               {correct}/{attempted || 0}
             </div>
           </div>
-          <div>
-            <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Accuracy</div>
-            <div style={{ 
-              fontSize: '1.1rem', 
-              fontWeight: 'bold',
+          <div className="stat-item">
+            <div className="stat-label">Accuracy</div>
+            <div className="stat-value" style={{ 
               color: accuracy >= 70 ? 'var(--success)' : accuracy >= 50 ? 'var(--warning)' : 'var(--danger)'
             }}>
               {accuracy}%
@@ -51,4 +50,5 @@ function Header({ user, userAnswers, quizTitle }) {
   );
 }
 
+// Add this export statement
 export default Header;

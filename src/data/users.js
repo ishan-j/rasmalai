@@ -2,45 +2,45 @@
 export const users = [
     {
         id: 1,
-        username: "Ishan",
+        username: "ishan",
         password: "ishan@1001",
         fullName: "Ishan",
-        role: "admin",
+        role: "Hacker",
         enrolledDate: "2024-01-15"
     },
     {
         id: 2,
-        username: "Aayush",
+        username: "aayush",
         password: "ishan@1001",
         fullName: "Aayush",
-        role: "student",
+        role: "Hacker",
         batch: "PG-DITISS Jan 2024",
         rollNo: "DITISS24001"
     },
     {
         id: 3,
-        username: "Om",
+        username: "om",
         password: "ishan@1001",
         fullName: "Om",
-        role: "student",
+        role: "Hacker",
         batch: "PG-DITISS Jan 2024",
         rollNo: "DITISS24002"
     },
     {
         id: 4,
-        username: "Nikita",
+        username: "nikita",
         password: "ishan@1001",
         fullName: "Nikita",
-        role: "student",
+        role: "Hacker",
         batch: "PG-DITISS Jan 2024",
         rollNo: "DITISS24003"
     },
     {
         id: 5,
-        username: "Pradhnya",
+        username: "pradhnya",
         password: "ishan@1001",
         fullName: "Pradhnya",
-        role: "faculty",
+        role: "Hacker",
         department: "Cybersecurity"
     }
 ];
