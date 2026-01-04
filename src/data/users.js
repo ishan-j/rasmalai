@@ -42,6 +42,15 @@ export const users = [
         fullName: "Pradnya",
         role: "Hacker",
         department: "Cybersecurity"
+    },
+    {
+        id: 6,
+        username: "csk",
+        password: "ishan@1001",
+        fullName: "csk",
+        role: "Hacker",
+        batch: "hello",
+        rollNo: "Hello"
     }
 ];
 
