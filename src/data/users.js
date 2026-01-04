@@ -14,8 +14,8 @@ export const users = [
         password: "ishan@1001",
         fullName: "Aayush",
         role: "Hacker",
-        batch: "PG-DITISS Jan 2024",
-        rollNo: "DITISS24001"
+        batch: "hello",
+        rollNo: "Hello"
     },
     {
         id: 3,
@@ -23,8 +23,8 @@ export const users = [
         password: "ishan@1001",
         fullName: "Om",
         role: "Hacker",
-        batch: "PG-DITISS Jan 2024",
-        rollNo: "DITISS24002"
+        batch: "hello",
+        rollNo: "Hello"
     },
     {
         id: 4,
@@ -32,8 +32,8 @@ export const users = [
         password: "ishan@1001",
         fullName: "Nikita",
         role: "Hacker",
-        batch: "PG-DITISS Jan 2024",
-        rollNo: "DITISS24003"
+        batch: "hello",
+        rollNo: "Hello"
     },
     {
         id: 5,

@@ -180,7 +180,7 @@ function App() {
         </div>
         
         <h1>Exam Engine</h1>
-        <p className="subtitle">प्यार-व्यार सब धोखा है, पढ़ ले बेटा मौका है।</p>
+        <p className="subtitle">मत कर माया को अहंकार</p>
         
         {/* Search Bar */}
         <div style={{ 
@@ -273,7 +273,7 @@ function App() {
         </p>
         <p style={{ marginTop: '40px', color: 'var(--text-muted)', fontSize: '0.9rem' }}>
           {/* Version 3.0 • {Object.keys(questionBanks).length} Subjects • For CDAC PG-DITISS Students Only */}
-          -Ishan The Great
+          -The Great
         </p>
       </div>
     );

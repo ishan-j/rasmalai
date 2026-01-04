@@ -18,7 +18,7 @@ function ResultScreen({ quizData, userAnswers, onRestart, user }) {
     performance = 'Fair';
     color = 'var(--warning)';
   } else {
-    performance = 'Needs Improvement';
+    performance = 'Need Improvement';
     color = 'var(--danger)';
   }
 
